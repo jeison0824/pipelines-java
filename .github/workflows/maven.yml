@@ -11,7 +11,7 @@ jobs:
   
     strategy:
       matrix:
-        java: [ 11, 12, 13 ]
+        java: [ 11, 12 ]
 
     # se ejecuta en Ubuntu Linux
     runs-on: ubuntu-latest
